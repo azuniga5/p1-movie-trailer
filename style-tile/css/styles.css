@@ -1,0 +1,85 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Francois+One|Palanquin+Dark');
+
+
+body {
+    background-color: #241d2f;
+}
+
+/* Color Palette */
+.color-1 {
+    background-color: #bf6508;
+}
+.color-2 {
+    background-color: #de0707;
+}
+.color-3 {
+    background-color: #000000;
+}
+.color-4 {
+    background-color: #4e820a;
+}
+.color-5 {
+    background-color: #820a1b;
+}
+
+
+/* Textures or Patterns*/
+
+.pattern-1 {
+    background-image: url(/textures/real_cf/real_cf.png);
+}
+.pattern-2 {
+    background-image: url(/textures/ep_naturalblack/ep_naturalblack.png);
+}
+.pattern-3 {
+    background-image: url(/textures/dirty_old_shirt/dirty_old_shirt.png);
+}
+.pattern-4 {
+    background-image: url(/textures/dark_brick_wall/dark_brick_wall.png);
+}
+.pattern-5 {
+    background-image: url(/textures/zwartevilt/zwartevilt.png);
+}
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+a:link{
+    
+}
+a:focus{
+    
+}
+a:hover{
+    
+}
+a:active {
+    
+}
+a:visted{
+    
+}
+
+
+/* Typography */
+
+h1 {
+  font-family: 'Anton', sans-serif;     
+}
+h2, h3{
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+p{
+    font-family: 'Francois One', sans-serif;
+}
+
+
