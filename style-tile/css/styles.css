@@ -1,85 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 /***************/
 /* YOUR STYLES */
 /***************/
 
-@import url('https://fonts.googleapis.com/css?family=Anton|Francois+One|Palanquin+Dark');
-
-
-body {
-    background-color: #241d2f;
-}
-
 /* Color Palette */
 .color-1 {
-    background-color: #bf6508;
-}
-.color-2 {
-    background-color: #de0707;
-}
-.color-3 {
-    background-color: #000000;
-}
-.color-4 {
-    background-color: #4e820a;
-}
-.color-5 {
-    background-color: #820a1b;
+    background: #c9d661;
 }
 
+.color-2 {
+    background: #2c39d5;
+}
 
 /* Textures or Patterns*/
-
 .pattern-1 {
-    background-image: url(/textures/real_cf/real_cf.png);
-}
-.pattern-2 {
-    background-image: url(/textures/ep_naturalblack/ep_naturalblack.png);
-}
-.pattern-3 {
-    background-image: url(/textures/dirty_old_shirt/dirty_old_shirt.png);
-}
-.pattern-4 {
-    background-image: url(/textures/dark_brick_wall/dark_brick_wall.png);
-}
-.pattern-5 {
-    background-image: url(/textures/zwartevilt/zwartevilt.png);
+    background: url("../img/topography.png")    ;
 }
 
 /* Imagery */
-
+/* Score: 0, 0, 1, 2*/
+.imagery-1 img {
+    border: none;
+    box-shadow: 0 0 10px #333;
+}
 
 /* Icons */
-
+.icon-1 img {
+    border: none;
+}
 
 /* Navigation */
-a:link{
-    
+a:link,
+a:visited {
+    color: aquamarine;
+    text-decoration: none;
 }
-a:focus{
-    
+
+a:focus {
+ background: red;   
 }
-a:hover{
-    
-}
+
+a:hover,
 a:active {
-    
-}
-a:visted{
-    
+    border-bottom: 4px solid aquamarine;
 }
 
 
 /* Typography */
-
 h1 {
-  font-family: 'Anton', sans-serif;     
-}
-h2, h3{
-  font-family: 'Palanquin Dark', sans-serif;
-}
-
-p{
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: aqua;
 }
 
 
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: darkgray;
+}
+
+p {
+    line-height: 1.5em;
+}
