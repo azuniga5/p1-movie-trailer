@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Merriweather+Sans');
+/*font-family: 'Merriweather Sans', sans-serif;*/
+/*font-family: 'Francois One', sans-serif*/
+
 /* Styling */
 body {
-    background: url(../style-tile/background/ep_naturalblack.png);
+    background: url(../style-tile/background/real_cf.png);
     position: relative;
+    align-content: center;
 }
 
 
 .home-image{
-    	display: block;
+    display: block;
 	margin: 50px auto;
 	max-width: 50%;
 	max-height: auto;
@@ -14,25 +19,31 @@ body {
 
 
 .summary 	{
-	font-size: 1em;
+    font-size: 1em;
+    font-family: 'Merriweather Sans', sans-serif;
     color: White;
     letter-spacing: 1px;
-    line-height: 22px;
-    word-spacing: 1px;
+    line-height: 21px;
+    word-spacing: 0px;
 	text-align: left;
-	margin: 400px auto ;
-	max-width:  1000px;	
+	margin: 200px auto ;
+	max-width: 1000px;	
     padding: 1em;
 }
 .movie{
-    justify-content: center;  
-    max-width: 100%;
-    padding 0 30px 0 30px;
-    margin: 0px auto;
+    display: block;
+	margin: 0px auto;
+	max-width: 50%;
+	max-height: auto;
+ 
     
 }
 video {
-   
+    display: block;
+    margin: 0px auto;
+	max-width: 100%;
+	max-height: auto;
+
 }
 
 
