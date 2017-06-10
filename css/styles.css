@@ -14,7 +14,7 @@ body {
     display: block;
 	margin: 50px auto;
     padding: 1em;
-	max-width: 50%;
+	max-width: 35%;
 	max-height: auto;
 }
 
@@ -23,14 +23,14 @@ body {
 }
 
 h2{
-    font-size: 1em;
+    font-size: 1.5em;
     text-transform:uppercase;
     font-family: 'Merriweather Sans', sans-serif;
     color: white;
     letter-spacing: 1.2px;
 	margin: 0px auto ;
-	max-width: 1000px;	
-    padding: auto;
+	max-width: 1200px;	
+    padding: .1em;
 }
 p{
     font-size: .8em;
@@ -41,8 +41,9 @@ p{
     word-spacing: 0px;
 	text-align: left;
 	margin: 0px auto ;
-	width: 1000px;	
-    padding: auto;
+    max-width: 1200px ;
+    max-height: auto ; 
+    padding: .5em;
     padding-bottom: 400px; 
 }
 
