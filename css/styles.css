@@ -32,6 +32,10 @@ h2{
 	max-width: 1200px;	
     padding: .1em;
 }
+
+span:nth-child(odd){
+  color:orange;
+}
 p{
     font-size: .8em;
     font-family: 'Merriweather Sans', sans-serif;

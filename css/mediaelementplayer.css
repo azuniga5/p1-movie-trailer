@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Merriweather+Sans');
+/*font-family: 'Merriweather Sans', sans-serif;*/
+/*font-family: 'Francois One', sans-serif*/
+
 /* Accessibility: hide screen reader texts (and prefer "top" for RTL languages).
 Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-how/ */
 .mejs__offscreen {
@@ -11,8 +15,10 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__container {
     position: relative;
-    background: #000;
-    font-family: "Helvetica", Arial, serif;
+    border-radius: 50px 50px 50px 50px;x;
+    background: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 5em;
     text-align: left;
     vertical-align: top;
     text-indent: 0;
@@ -21,12 +27,14 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__container * {
     box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
 }
 
 /* Hide native play button from iOS to favor plugin button */
 .mejs__container video::-webkit-media-controls-start-playback-button {
     display: none !important;
     -webkit-appearance: none;
+   
 }
 
 .mejs__fill-container,
@@ -129,13 +137,13 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__overlay-button {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 80px;
-    height: 80px;
+    top: 40%;
+    left: 45%;
+    width: 150px;
+    height: 160px;
     margin: -40px 0 0 -40px;
-    background: url("../img/controls.svg") no-repeat;
-    background-position: 0 -39px;
+    background: url("../img/controls1.svg") repeat;
+    background-position: 0;
     overflow: hidden;
 }
 
@@ -156,7 +164,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     display: block;
     width: 80px;
     height: 80px;
-    background: transparent url("../img/controls.svg") -160px -40px no-repeat;
+    background: transparent url("../img/controls1.svg") -160px -40px no-repeat;
     -webkit-animation: mejs-loading-spinner 1s linear infinite;
     -moz-animation: mejs-loading-spinner 1s linear infinite;
     animation: mejs-loading-spinner 1s linear infinite;
@@ -187,17 +195,20 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__controls {
     position: absolute;
     list-style-type: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: aqua;
     margin: 0;
     padding: 0 10px;
     bottom: 0;
     left: 0;
-    height: 40px;
+    height: 45px;
     width: 100%;
+
 }
 
 .mejs__controls:not([style*="display: none"]) {
-    background: rgba(255, 0, 0, 0.7);
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.35));
+    background: rgba(0, 250, 250, 0.7);
+    background: #d5762c;
 }
 
 .mejs__button,
@@ -205,14 +216,14 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__time-rail {
     float: left;
     margin: 0;
-    width: 32px;
+    width: 20px;
     height: 40px;
-    font-size: 10px;
+    font-size: 100px;
     line-height: 10px;
 }
 
 .mejs__button > button {
-    cursor: pointer;
+    cursor:grab;
     display: block;
     font-size: 0;
     line-height: 0;
@@ -245,12 +256,13 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* Start: Time (Current / Duration) */
 .mejs__time {
-    color: #fff;
+    color: black;
     display: block;
     height: 24px;
+    color: black;
     width: auto;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 15px;
     padding: 16px 6px 0 6px;
     overflow: hidden;
     text-align: center;
@@ -293,7 +305,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__time-float-current,
 .mejs__time-float-corner,
 .mejs__time-marker {
-    cursor: pointer;
+    cursor:row-resize;
     display: block;
     position: absolute;
     height: 10px;
@@ -302,7 +314,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__time-total {
     margin: 5px 0 0 0;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(200, 150, 255, 0.3);
     width: 100%;
 }
 
@@ -688,7 +700,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* Start: Error */
 .me-cannotplay a {
-    color: #fff;
+    color: red;
     font-weight: bold;
 }
 
